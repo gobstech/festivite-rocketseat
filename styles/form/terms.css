@@ -1,0 +1,53 @@
+#terms {
+  all: unset;
+  padding-top: 40px;
+  border-top: 1px solid var(--input-stroke);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+
+  .checks {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .check-section {
+      display: flex;
+      gap: 8px;
+
+      label {
+        font: var(--body-sm);
+        color: var(--text-body);
+
+        span {
+          color: var(--brand-light);
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  button {
+    align-self: flex-end;
+    background-color: var(--brand-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--body-sm);
+    color: var(--text-heading);
+    border: none;
+    height: 48px;
+    width: 177px;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    svg {
+      stroke: var(--text-heading);
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

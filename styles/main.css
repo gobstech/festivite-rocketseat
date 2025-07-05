@@ -6,7 +6,7 @@ main {
 
   gap: 40px;
   background-color: var(--shape-body);
-  margin: 20px 20px 0px 20px;
+  margin: 20px;
   border-radius: 12px;
   overflow-y: auto;
 
