@@ -11,6 +11,8 @@
 
     svg {
       stroke: var(--input-placeholder);
+      width: 24px;
+      height: 24px;
     }
 
     h2 {
