@@ -56,3 +56,15 @@
   height: 100vh;
   overflow: auto;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.grid {
+  display: grid;
+}

@@ -1,0 +1,92 @@
+#about {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    svg {
+      stroke: var(--input-placeholder);
+    }
+
+    h2 {
+      font: var(--heading-sm);
+      color: var(--text-heading);
+    }
+  }
+
+  .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .flex-wrapper {
+      gap: 16px;
+    }
+
+    .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      label {
+        font: var(--body-sm);
+        color: var(--text-body);
+      }
+
+      .type-buttons {
+        display: flex;
+        gap: 4px;
+        padding: 4px;
+        border: 1px solid var(--input-stroke);
+        border-radius: 8px;
+        background-color: var(--input-base);
+
+        button {
+          all: unset;
+          display: flex;
+          justify-content: center;
+          gap: 4px;
+          align-items: center;
+          width: 100%;
+          font: var(--body-sm);
+          color: var(--text-heading);
+          background-color: var(--shape-button);
+          border-radius: 5px;
+
+          svg {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+
+      input {
+        background-color: var(--input-base);
+        color: var(--input-placeholder);
+        height: 48px;
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid var(--input-stroke);
+        font: var(--body-md);
+        padding-left: 16px;
+      }
+
+      textarea {
+        background-color: var(--input-base);
+        color: var(--input-placeholder);
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid var(--input-stroke);
+        font: var(--body-md);
+        padding-left: 16px;
+        padding-top: 16px;
+        resize: none;
+        height: 136px;
+      }
+    }
+  }
+}
