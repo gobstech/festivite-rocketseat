@@ -66,6 +66,10 @@
 
           &:active {
             background-color: var(--input-stroke);
+
+            svg {
+              stroke: var(--brand-dark);
+            }
           }
 
           &:focus {

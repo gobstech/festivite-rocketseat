@@ -84,3 +84,7 @@ textarea:focus {
 input:invalid {
   border: 1px solid var(--danger);
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
