@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Brand */
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  /* Accent Colors */
+  --purple: #b259ff;
+  --fuchsia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+
+  /* Feedback */
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  /* Shape */
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  /* Text */
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  /* Fonts */
+  --leckerli-one: "Leckerli One", cursive;
+  --baloo-2: "Baloo 2", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+
+  /* Typography */
+  --logo: 400 2.5rem / 1 var(--leckerli-one);
+  --heading-md: 700 1.75rem / 1 var(--baloo-2);
+  --heading-sm: 700 1.125rem / 1 var(--baloo-2);
+  --body-md: 500 1rem / 1 var(--open-sans);
+  --body-sm: 500 0.875rem / 1 var(--open-sans);
+  --body-xs: 500 0.75rem / 1 var(--open-sans);
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  background-color: #1e1e1e;
+  height: 100vh;
+  overflow: auto;
+}
