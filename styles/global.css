@@ -72,3 +72,15 @@
 .grid {
   display: grid;
 }
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border: 1px solid var(--brand-light);
+}
+
+input:invalid {
+  border: 1px solid var(--danger);
+}

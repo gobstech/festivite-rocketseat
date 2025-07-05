@@ -114,12 +114,20 @@
           align-items: center;
           border-radius: 50%;
           background-color: var(--shape-button);
+          cursor: pointer;
+
+          &:hover {
+            background-color: var(--shape-hover);
+          }
+
+          &:active {
+            border: 1px solid var(--brand-light);
+          }
 
           .circle {
             width: 28px;
             height: 28px;
             border-radius: 50%;
-            cursor: pointer;
 
             &.brand-light {
               background-color: var(--brand-light);
@@ -184,6 +192,14 @@
           h4 {
             color: var(--text-heading);
             font: var(--body-sm);
+          }
+
+          &:hover {
+            background-color: var(--shape-hover);
+          }
+
+          &:active {
+            border: 1px solid var(--brand-light);
           }
         }
       }
