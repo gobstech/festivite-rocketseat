@@ -61,8 +61,12 @@
           width: 100%;
           font: var(--body-sm);
           color: var(--text-heading);
-          background-color: var(--shape-button);
+          background-color: transparent;
           border-radius: 5px;
+
+          &:active {
+            background-color: var(--input-stroke);
+          }
 
           &:focus {
             background-color: b;

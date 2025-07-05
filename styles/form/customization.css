@@ -85,6 +85,10 @@
         border-radius: 999px;
         position: relative;
 
+        &.active {
+          background-color: var(--brand-light);
+        }
+
         .circle {
           position: absolute;
           width: 24px;
@@ -93,6 +97,12 @@
           top: calc(50% - 24px / 2);
           background-color: var(--input-stroke);
           border-radius: 999px;
+
+          &.active {
+            background-color: var(--text-heading);
+            right: 4px;
+            left: initial;
+          }
         }
       }
 
